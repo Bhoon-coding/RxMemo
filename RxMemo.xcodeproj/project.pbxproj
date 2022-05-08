@@ -10,6 +10,7 @@
 		B5EF0C6787D3826AA628092B /* Pods_RxMemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DCBB1B6160F3699ABDACFB /* Pods_RxMemoTests.framework */; };
 		D31AAF75FECC576C476C6411 /* Pods_RxMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51657FC9A8476CFEFB447C6 /* Pods_RxMemo.framework */; };
 		D77BD0D9B94D1C9F10239CEB /* Pods_RxMemo_RxMemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF5BEA90463F421BA7D2BF1 /* Pods_RxMemo_RxMemoUITests.framework */; };
+		E1058E7E28280A5300469491 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1058E7D28280A5300469491 /* Memo.swift */; };
 		E1ABF72F281EC4CD00EA3084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ABF72E281EC4CD00EA3084 /* AppDelegate.swift */; };
 		E1ABF731281EC4CD00EA3084 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ABF730281EC4CD00EA3084 /* SceneDelegate.swift */; };
 		E1ABF736281EC4CD00EA3084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1ABF734281EC4CD00EA3084 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		BB6264FB153F479616C1554A /* Pods-RxMemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMemoTests.debug.xcconfig"; path = "Target Support Files/Pods-RxMemoTests/Pods-RxMemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C51657FC9A8476CFEFB447C6 /* Pods_RxMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FE4BFC28E36503996C0DC7 /* Pods-RxMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMemo.release.xcconfig"; path = "Target Support Files/Pods-RxMemo/Pods-RxMemo.release.xcconfig"; sourceTree = "<group>"; };
+		E1058E7D28280A5300469491 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		E1ABF72B281EC4CD00EA3084 /* RxMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1ABF72E281EC4CD00EA3084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1ABF730281EC4CD00EA3084 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		E1058E78282808F300469491 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E1058E7D28280A5300469491 /* Memo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 				E1ABF72F281EC4CD00EA3084 /* AppDelegate.swift in Sources */,
 				E1ABF731281EC4CD00EA3084 /* SceneDelegate.swift in Sources */,
 				E1ABF739281EC4CD00EA3084 /* RxMemo.xcdatamodeld in Sources */,
+				E1058E7E28280A5300469491 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
